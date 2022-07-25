@@ -120,9 +120,13 @@ button:hover{
     color: #70757a;
     font: 15px arial, sans-serif; 
     padding: 15px 30px;
-    margin-top: -5px;
     margin-left: -8px;
 
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 .linhameio{
     height: 1px;
@@ -130,15 +134,16 @@ button:hover{
     width: 100%;
 }
 .rodapemain{
-    
+
     background-color: #e7e9eb;
     padding: 7.5px;
+    
 }
 .rodape{
     display: flex;
     justify-content: space-between;
-   
     margin-left: -6.5px;
+    margin-top: 10px;
 }
 .linha{
     display: flex;
@@ -152,6 +157,7 @@ button:hover{
     text-decoration: none;
     color: #70757a;
     font: 14px arial, sans-serif; 
+
 }
 .button1{
     margin-top: 7.5px;
